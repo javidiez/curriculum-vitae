@@ -1,0 +1,35 @@
+.card-style{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-img-back{
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+}
+.card-img{
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-right: 15px;
+}
+
+.card-url{
+    color:grey;
+    font-size: 0.9rem;
+}
+
+.card-description{
+    color:rgb(75, 75, 75); 
+    width: 60%;
+}
+
+.card-title{
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 1.5rem;
+}
+
+.card-title:hover{
+    text-decoration: underline;
+}

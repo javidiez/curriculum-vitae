@@ -1,0 +1,31 @@
+.google-logo{
+    width: clamp(5rem, 6vw, 15rem);
+}
+
+.titulos-cv{
+    margin-top: 30px
+}
+.titulos-cv-style{
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  padding: 0px 10px;
+}
+
+.titulos-cv-style:active{
+    color: rgb(39, 39, 39);
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+  }
+
+
+  .titulos-cv-style:focus{
+    color: rgb(39, 39, 39);
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+  }
+
+  @media screen and (max-width:630px){
+    .google-logo{
+      display: none;
+  }
+  }

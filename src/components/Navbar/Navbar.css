@@ -1,0 +1,37 @@
+.navbar-style{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.navbar-left{
+    font-size: 1rem;
+    margin-top:10px;
+    display: flex;
+}
+
+.navbar-right{
+    font-size: 0.9rem;
+}
+
+.navbar-profile-photo{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.nabvar-links{
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}
+
+.nabvar-links:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:500px){
+    .navbar-left{
+        display: none;
+    }
+    .navbar-right{
+        margin-left: auto;
+    }
+}
