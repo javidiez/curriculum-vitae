@@ -10,7 +10,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/index.html" element={<Home />} />
         <Route path="/curriculum_vitae" element={<CurriculumVitae />} />
+        <Route path="*" element={<h1 className='text-center text-dark mt-5'>Not found!</h1>} />
       </Routes>
     </Router>
   )

@@ -33,3 +33,13 @@
 .card-title:hover{
     text-decoration: underline;
 }
+
+.icon-more-vert{
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 900px){
+    .card-description{
+        width: 100%;
+    }
+}

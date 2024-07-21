@@ -46,6 +46,7 @@
     color:#3f3f3f;
     text-decoration: none;
     text-align: center;
+    font-size: clamp(0.9rem,1vw,1rem);
 }
 
 .btn-search-box:hover{

@@ -9,13 +9,13 @@ export const InfoCard = ({ title, url, urlTitle, description, img }) => {
                 <div className="card-img-back">
                     <img className="card-img rounded-circle" src={img} />
                 </div>
-                <div className="d-flex flex-column">
+                <div className="d-flex flex-column card-top-block-info">
                     <p>{urlTitle}</p>
                     <div className="d-flex">
                         <p className="card-url pe-2">{url}</p>
 
                         <div>
-                            <span class="material-symbols-outlined">
+                            <span class="material-symbols-outlined text-secondary icon-more-vert">
                                 more_vert
                             </span>
                         </div>

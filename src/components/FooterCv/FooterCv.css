@@ -1,0 +1,27 @@
+.footer-extended-logo{
+    font-size: clamp(2rem, 5vw,3rem);
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.footer-cv-container{
+    position: absolute;
+    width: 100%;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+}
+
+.footer-numbers{
+    color: rgb(76, 76, 243);
+    font-size: clamp(0.8rem, 2vw,1rem);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 4rem
+
+}
+
+@media screen and (max-width:490px){
+    .footer-extended-logo{
+        padding-right: 17rem
+    }
+}
