@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import './InfoCard.css'
 
 
-export const InfoCard = ({ title, url, urlTitle, description, img }) => {
+export const InfoCard = ({ title, url, urlTitle, description, img, LinkTo }) => {
     return (
         <div className="mt-5 card-style container">
             <div className="d-flex align-items-start gap-2">
@@ -22,7 +22,7 @@ export const InfoCard = ({ title, url, urlTitle, description, img }) => {
                     </div>
                 </div>
             </div>
-            <Link className="card-title" to="">{title}</Link>
+            <Link className="card-title" to={LinkTo}>{title}</Link>
             <p className="card-description">{description}</p>
         </div>
     )

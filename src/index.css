@@ -4,9 +4,10 @@ p, a, h1, h2, h3, h4, h5, span, hr, img{
 }
 
 body, html{
-    height: 97vh;
+    height: 100vh;
     position: relative;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .google-blue{

@@ -48,11 +48,11 @@ export const NavbarCv = () => {
                             <div className="d-flex gap-4">
                                 <Link className="titulos-cv-style-todo text-decoration-none" to="/curriculum_vitae">Todo</Link>
                                 <Link className="titulos-cv-style" to="">Experiencia</Link>
-                                <Link className="titulos-cv-style" to="">Estudios</Link>
-                                <Link className="titulos-cv-style" to="">Cursos</Link>
-                                <Link className="titulos-cv-style" to="">Intereses</Link>
-                                <Link className="titulos-cv-style" to="">Información</Link>
-                                <Link className="titulos-cv-style" to="">Contacto</Link>
+                                <Link className="titulos-cv-style" to="">Educación</Link>
+                                <Link className="titulos-cv-style" to="">Conocimientos</Link>
+                                <Link className="titulos-cv-style" to="">Proyectos</Link>
+                                <Link className="titulos-cv-style" to="">Linkedin</Link>
+                                <Link className="titulos-cv-style" to="">Github</Link>
                             </div>
                         </div>
                     </div>
