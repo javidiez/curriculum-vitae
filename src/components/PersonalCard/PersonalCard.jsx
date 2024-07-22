@@ -5,6 +5,12 @@ import javier from '../../assets/img/javier-diez.jpeg'
 import logoLikedin from '../../assets/img/logo-linkedin.png'
 import logoGithub from '../../assets/img/logo-github.webp'
 import logoX from '../../assets/img/logo-x.avif'
+import logoHtml from '../../assets/img/logo-html.png'
+import logoCss from '../../assets/img/logo-css.svg'
+import logoBootstrap from '../../assets/img/logo-bootstrap.png'
+import logoJs from '../../assets/img/logo-js.png'
+import LogoReact from '../../assets/img/logo-react.png'
+import logoPython from '../../assets/img/logo-python.png'
 
 export const PersonalCard = () => {
     return (
@@ -45,6 +51,19 @@ export const PersonalCard = () => {
                     <a target="_blank" href="https://www.linkedin.com/in/javier-diezz/" rel="noopener noreferrer" title="Linkedin"><img className="profile-icons" src={logoLikedin}/></a>
                     <a target="_blank" href="https://github.com/javidiez" rel="noopener noreferrer" title="Github"><img className="profile-icons" src={logoGithub}/></a>
                     <a target="_blank" href="https://x.com/jeydi_dev" rel="noopener noreferrer" title="X"><img className="profile-icons" src={logoX}/></a>
+                </div>
+            </div>
+
+            <div className="perfiles">
+                <p className="fs-2 pb-2">Tecnologías</p>
+                <div className="d-flex gap-3">
+                    <img className="profile-icons-tech" src={logoHtml}/>
+                    <img className="profile-icons-tech" src={logoCss}/>
+                    <img className="profile-icons-tech" src={logoBootstrap}/>
+                    <img className="profile-icons-tech" src={logoJs}/>
+                    <img className="profile-icons-tech" src={LogoReact}/>
+                    <img className="profile-icons-tech" src={logoPython}/>
+                   
                 </div>
             </div>
         </div>
