@@ -11,8 +11,8 @@ export const Navbar = () => {
                 <Link className='nabvar-links' to=''>Proyectos</Link>
             </div>
             <div className='d-flex gap-4 align-items-center navbar-right'>
-                <a className='nabvar-links' target='_blank' href='https://github.com/javidiez'>Github</a>
-                <a className='nabvar-links' target='_blank' href='https://www.linkedin.com/in/javier-diezz/'>Linkedin</a>
+                <a className='nabvar-links' target='_blank' rel="noopener noreferrer" href='https://github.com/javidiez' title="Github">Github</a>
+                <a className='nabvar-links' target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/javier-diezz/' title="Linkedin">Linkedin</a>
                 <span className="material-symbols-outlined">
                     apps
                 </span>
