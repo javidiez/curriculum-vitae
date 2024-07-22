@@ -11,6 +11,7 @@ import logoBootstrap from '../../assets/img/logo-bootstrap.png'
 import logoJs from '../../assets/img/logo-js.png'
 import LogoReact from '../../assets/img/logo-react.png'
 import logoPython from '../../assets/img/logo-python.png'
+import logoFlask from '../../assets/img/logo-flask.webp'
 
 export const PersonalCard = () => {
     return (
@@ -56,13 +57,14 @@ export const PersonalCard = () => {
 
             <div className="perfiles">
                 <p className="fs-2 pb-2">Tecnologías</p>
-                <div className="d-flex gap-3">
-                    <img className="profile-icons-tech" src={logoHtml}/>
-                    <img className="profile-icons-tech" src={logoCss}/>
-                    <img className="profile-icons-tech" src={logoBootstrap}/>
-                    <img className="profile-icons-tech" src={logoJs}/>
-                    <img className="profile-icons-tech" src={LogoReact}/>
-                    <img className="profile-icons-tech" src={logoPython}/>
+                <div className="d-flex flex-wrap gap-2">
+                    <img className="profile-icons-tech" src={logoHtml} title="HTML"/>
+                    <img className="profile-icons-tech" src={logoCss} title="CSS"/>
+                    <img className="profile-icons-tech" src={logoBootstrap} title="Bootstrap"/>
+                    <img className="profile-icons-tech" src={logoJs} title="JavaScript"/>
+                    <img className="profile-icons-tech" src={LogoReact} title="React"/>
+                    <img className="profile-icons-tech" src={logoPython} title="Python"/>
+                    <img className="profile-icons-tech" src={logoFlask} title="Flask"/>
                    
                 </div>
             </div>
