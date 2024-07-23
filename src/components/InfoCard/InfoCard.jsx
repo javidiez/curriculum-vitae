@@ -10,7 +10,7 @@ export const InfoCard = ({ title, url, urlTitle, description, img, LinkTo }) => 
                     <img className="card-img rounded-circle" src={img} />
                 </div>
                 <div className="d-flex flex-column card-top-block-info">
-                    <p>{urlTitle}</p>
+                    <p className="card-url-title">{urlTitle}</p>
                     <div className="d-flex">
                         <p className="card-url pe-2">{url}</p>
 

@@ -1,16 +1,3 @@
-html {
-    --primary-color: #282c34;
-    --secondary-color: #fff;
-    --link-color: #1a0dab;
-}
-
-/* Variables de color si el tema es dark */
-html[data-theme="dark"] {
-    --primary-color: #fff;
-    --secondary-color: #282c34;
-    --link-color: #95bdcf;
-}
-
 .arrow-icon{
     border: 1px solid grey;
     border-radius: 50%;
@@ -31,6 +18,10 @@ html[data-theme="dark"] {
     padding-bottom: 25px;
 }
 
+.profile-rol{
+    color: var(--grey-color);
+}
+
 .profile-icons{
     width: 2.5rem;
     height: 2.5rem;
@@ -47,5 +38,11 @@ html[data-theme="dark"] {
 }
 
 .profile-description{
-    color: var(--primary-color);
+    color: var(--grey-color);
+}
+
+@media screen and (max-width: 991px){
+    .personal-card{  
+        border-left: 0px;
+    }
 }

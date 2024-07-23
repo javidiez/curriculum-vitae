@@ -1,16 +1,3 @@
-html {
-    --primary-color: #282c34;
-    --secondary-color: #fff;
-    --link-color: #1a0dab;
-}
-
-/* Variables de color si el tema es dark */
-html[data-theme="dark"] {
-    --primary-color: #fff;
-    --secondary-color: #282c34;
-    --link-color: #95bdcf;
-}
-
 .card-style{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,8 +14,12 @@ html[data-theme="dark"] {
     margin-right: 15px;
 }
 
+.card-url-title{
+    color: var(--primary-color);
+}
+
 .card-url{
-    color:grey;
+    color: var(--grey-color);
     font-size: 0.9rem;
 }
 

@@ -10,7 +10,7 @@ export const FooterCv = () => {
                 <span className="google-blue">J</span>
                 <div>
                     <span className="google-red">a</span>
-                    <p className='footer-numbers text-dark'>1</p>
+                    <p className='footer-numbers number-one'>1</p>
                 </div>
                 <div>
                     <span className="google-yellow">a</span>
@@ -57,7 +57,7 @@ export const FooterCv = () => {
             <div className='footer-cv-container'>
                 <div className='footer-cv container d-flex pb-2'>
                     <div className='d-flex flex-wrap'>
-                        <p>España</p>
+                        <p className='text-dark'>España</p>
                         <span className='text-secondary mx-3'>|</span>
                         <p className='fw-bold text-dark'>La ubicación donde estás, Ciudad -</p>
                         <p className='text-primary ms-2'>Según tus sitios (casa) - Actualizar ubicación</p>

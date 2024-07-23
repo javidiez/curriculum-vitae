@@ -20,7 +20,7 @@ export const PersonalCard = () => {
                 <p className="profile-name pb-2">Javier Diez</p>
                 <div className="d-flex justify-content-between">
                     <div className="d-flex">
-                        <p className="text-secondary pe-2">Programador FullStack</p>
+                        <p className="pe-2 profile-rol">Programador FullStack</p>
                         <span class="material-symbols-outlined">
                             more_vert
                         </span>

@@ -7,9 +7,9 @@ export const Footer = () => {
         <>
             <div className='footer-block '>
                 <div className='px-4 py-3'>
-                    <p>España</p>
+                    <p className='text-dark'>España</p>
                 </div>
-                <hr />
+                <hr className='text-secondary'/>
                 <div className='d-flex justify-content-between py-3 flex-wrap'>
                     <div className='px-4 d-flex gap-4'>
                         <Link className='footer-links' to="">Experiencia</Link>

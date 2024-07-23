@@ -48,14 +48,14 @@ export const NavbarCv = () => {
     return (
         <div className="container-fluid row">
             <div className="text-center ">
-            <Link to="/home" className="text-decoration-none javier-logo-mobile">
-                            <span className="google-blue">J</span>
-                            <span className="google-red">a</span>
-                            <span className="google-yellow">v</span>
-                            <span className="google-blue">i</span>
-                            <span className="google-green">e</span>
-                            <span className="google-red">r</span>
-                        </Link>
+                <Link to="/home" className="text-decoration-none javier-logo-mobile">
+                    <span className="google-blue">J</span>
+                    <span className="google-red">a</span>
+                    <span className="google-yellow">v</span>
+                    <span className="google-blue">i</span>
+                    <span className="google-green">e</span>
+                    <span className="google-red">r</span>
+                </Link>
             </div>
             <div className="d-flex justify-content-between align-items-center container mt-4 col-12 col-sm-9">
 
@@ -79,21 +79,21 @@ export const NavbarCv = () => {
                         apps
                     </span>
                     <img className='rounded-circle navbar-profile-photo' src={javier} />
-                   <label>
-                    <input
-                    type="checkbox"
-                    defaultChecked={checked}
-                    onChange={() => toggleThemeChange()}
-                    style={{display:"none"}}
-                />
-                    <span class="material-symbols-outlined sun-icon-cv">
-                        brightness_4
-                    </span>
-                    <span class="material-symbols-outlined sun-icon-mobile">
-                        brightness_4
-                    </span>
-            </label>
-                    
+                    <label className="ps-2 pt-2">
+                        <input
+                            type="checkbox"
+                            defaultChecked={checked}
+                            onChange={() => toggleThemeChange()}
+                            style={{ display: "none" }}
+                        />
+                        <span class="material-symbols-outlined sun-icon-cv">
+                            brightness_4
+                        </span>
+                        <span class="material-symbols-outlined sun-icon-mobile">
+                            brightness_4
+                        </span>
+                    </label>
+
                 </div>
 
             </div>

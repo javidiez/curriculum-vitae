@@ -1,13 +1,15 @@
 .javier-logo {
   font-size: clamp(2rem, 2.5vw, 5rem);
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .javier-logo-mobile {
   font-size: clamp(2rem, 20vw, 3rem);
   margin: 0 auto;
-  padding-top: 1.3rem;
-  font-weight: 500;
+  padding-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .titulos-cv {

@@ -23,12 +23,17 @@ html {
 html {
     --primary-color: #282c34;
     --secondary-color: #fff;
+    --grey-color: rgb(80, 80, 80);
+    --link-color: #1a0dab;
 }
+
 
 /* Variables de color si el tema es dark */
 html[data-theme="dark"] {
     --primary-color: #fff;
     --secondary-color: #282c34;
+    --grey-color: #c4c4c4;
+    --link-color: #7dbccf;
 }
 
 body{
@@ -53,8 +58,10 @@ body{
 }
 
 .google-word {
-    font-size: clamp(4.5rem, 12vw, 6rem);
+    font-size: clamp(4.2rem, 12vw, 6rem);
     font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 
 }
 

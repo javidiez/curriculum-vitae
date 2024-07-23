@@ -16,6 +16,7 @@ export const Home = () => {
                     <span className="google-blue">i</span>
                     <span className="google-green">e</span>
                     <span className="google-red">r</span>
+                    
                 </div>
                 <SearchBoxHome />
             </div>
