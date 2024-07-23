@@ -29,15 +29,15 @@
 }
 
 .titulos-cv-style:active {
-  color: rgb(39, 39, 39);
-  border-bottom: 3px solid black;
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
   padding-bottom: 5px;
 }
 
 
 .titulos-cv-style:focus {
-  color: rgb(39, 39, 39);
-  border-bottom: 3px solid black;
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
   padding-bottom: 5px;
 }
 
