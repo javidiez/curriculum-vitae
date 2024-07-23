@@ -34,7 +34,7 @@ html[data-theme="dark"] {
     --primary-color: #fff;
     --secondary-color: #282c34;
     --grey-color: #c4c4c4;
-    --link-color: #7dbccf;
+    --link-color: #7bcbe4;
     --footer-color: #494949;
 }
 
@@ -44,24 +44,27 @@ body{
 }
 
 .google-blue {
-    color: #4285F4
+    color: #4285F4;
+    font-family: "Poppins", sans-serif;
 }
 
 .google-red {
     color: #EA4335;
+    font-family: "Poppins", sans-serif;
 }
 
 .google-yellow {
     color: #FBBC05;
+    font-family: "Poppins", sans-serif;
 }
 
 .google-green {
     color: #34A853;
+    font-family: "Poppins", sans-serif;
 }
 
 .google-word {
     font-size: clamp(4.2rem, 12vw, 6rem);
-    font-weight: 500;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 

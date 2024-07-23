@@ -105,12 +105,12 @@ export const NavbarCv = () => {
                         <div className='swiper-slide-paginas ps-4 pt-3 fade-in'>
                             <div className="d-flex gap-4">
                                 <Link className="titulos-cv-style-todo text-decoration-none" to="/curriculum_vitae">Todo</Link>
-                                <Link className="titulos-cv-style" to="">Experiencia</Link>
-                                <Link className="titulos-cv-style" to="">Educación</Link>
-                                <Link className="titulos-cv-style" to="">Conocimientos</Link>
-                                <Link className="titulos-cv-style" to="">Proyectos</Link>
-                                <Link className="titulos-cv-style" to="">Linkedin</Link>
-                                <Link className="titulos-cv-style" to="">Github</Link>
+                                <Link className="titulos-cv-style" to="/experiencia">Experiencia</Link>
+                                <Link className="titulos-cv-style" to="/educacion">Educación</Link>
+                                <Link className="titulos-cv-style" to="/conocimientos">Conocimientos</Link>
+                                <Link className="titulos-cv-style" to="/proyectos">Proyectos</Link>
+                                <a className="titulos-cv-style" target="_blank" href="https://www.linkedin.com/in/javier-diezz/">Linkedin</a>
+                                <a className="titulos-cv-style" target="_blank" href="https://github.com/javidiez">Github</a>
                             </div>
                         </div>
                     </div>
