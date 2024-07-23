@@ -57,9 +57,9 @@ export const FooterCv = () => {
             <div className='footer-cv-container'>
                 <div className='footer-cv container d-flex pb-2'>
                     <div className='d-flex flex-wrap'>
-                        <p className='text-dark'>España</p>
+                        <p>España</p>
                         <span className='text-secondary mx-3'>|</span>
-                        <p className='fw-bold text-dark'>La ubicación donde estás, Ciudad -</p>
+                        <p className='fw-bold'>La ubicación donde estás, Ciudad -</p>
                         <p className='text-primary ms-2'>Según tus sitios (casa) - Actualizar ubicación</p>
                     </div>
                 </div>

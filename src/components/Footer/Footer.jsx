@@ -7,7 +7,7 @@ export const Footer = () => {
         <>
             <div className='footer-block '>
                 <div className='px-4 py-3'>
-                    <p className='text-dark'>España</p>
+                    <p>España</p>
                 </div>
                 <hr className='text-secondary'/>
                 <div className='d-flex justify-content-between py-3 flex-wrap'>

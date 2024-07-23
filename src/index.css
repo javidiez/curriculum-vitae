@@ -25,6 +25,7 @@ html {
     --secondary-color: #fff;
     --grey-color: rgb(80, 80, 80);
     --link-color: #1a0dab;
+    --footer-color: #f3f3f3;
 }
 
 
@@ -34,6 +35,7 @@ html[data-theme="dark"] {
     --secondary-color: #282c34;
     --grey-color: #c4c4c4;
     --link-color: #7dbccf;
+    --footer-color: #494949;
 }
 
 body{
