@@ -1,6 +1,6 @@
 .input-container-cv{
     position: relative;
-    width: clamp(17rem, 35vw,50rem);
+    width: clamp(16rem, 35vw,50rem);
 }
 
 .search-box-cv{

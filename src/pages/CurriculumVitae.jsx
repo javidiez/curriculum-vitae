@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { InfoCard } from "../components/InfoCard/InfoCard";
 import { NavbarCv } from "../components/NavbarCv/NavbarCv";
 import javier from '../../src/assets/img/javier-diez.jpeg'
@@ -11,11 +12,12 @@ import { FooterCv } from "../components/FooterCv/FooterCv";
 import { PersonalCard } from "../components/PersonalCard/PersonalCard";
 
 export const CurriculumVitae = () => {
+
     return (
         <>
             <NavbarCv />
             <div className="row d-flex flex-wrap justify-content-center">
-                <div className="col-12 col-sm-6">
+                <div className="col-12 col-lg-6">
                     <InfoCard title={"Quién soy - Javier Diez"} url={"https://www.javierdiez.netlify.app"} urlTitle={"Quién soy"} img={javier} description={"Te cuento brevemente quién soy y cuáles son mis intereses principales. Te recomiendo primero visitar esta sección para que sepas quién está detrás de todo lo que vas a leer."} />
                     <InfoCard title={"Experiencia - Empleos"} url={"https://www.javierdiez.netlify.app"} urlTitle={"Experiencia"} img={maletin} description={"Conoce mi experiencia laboral a lo largo de toda mi vida. Podrás conocer donde trabajé, cuánto tiempo y cuáles fueron mis tareas principales. Todos mis empleos están relacionados al mundo IT."} />
                     <InfoCard title={"Educación - Cursos"} url={"https://www.javierdiez.netlify.app"} urlTitle={"Educación"} img={estudios} description={"Me encanta estudiar y seguir aprendiendo cosas nuevas todos los días. En esta sección te cuento todo lo que aprendí y estudié a lo largo de mi vida profesional. Títulos universitarios, cursos y bootcamps."} />
@@ -24,7 +26,7 @@ export const CurriculumVitae = () => {
                     <InfoCard title={"Javier Diez - Linkedin"} LinkTo={"https://www.linkedin.com/in/javier-diezz/"} url={"https://www.linkedin.com/javierdiezz"} urlTitle={"Linkedin"} img={linkedin} description={"En Linkedin podrás encontrar, además de todo mi curriculum, las publicaciones que voy haciendo regularmente comentando mis progresos, proyectos y novedades. No dejes de visitar mi perfil!"} />
                     <InfoCard title={"Javier Diez - Github"} LinkTo={"https://www.github.com/javidiez"} url={"https://www.github.com/javidiez"} urlTitle={"Github"} img={github} description={"En Github encontrarás todos mis proyectos, divididos en repositorios y en cada uno, carpetas y archivos que fueron utilizados para desarrollarlos. Te invito a revisarlos."} />
                 </div>
-                <div className="col-12 col-md-3 mt-4">
+                <div className="col-12 col-lg-3 mt-4">
                     <PersonalCard />
                 </div>
             </div>

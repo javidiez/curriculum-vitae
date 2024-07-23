@@ -17,8 +17,8 @@ export const SearchBoxHome = () => {
 
     return (
             <div className='d-flex flex-column justify-content-center align-items-center'>
-                <div class="input-container">
-                    <span class="material-symbols-outlined magnify-icon">
+                <div className="input-container">
+                    <span className="material-symbols-outlined magnify-icon">
                         search
                     </span>
                     <input type="text" className='search-box' onKeyDown={handleKeyPress} />

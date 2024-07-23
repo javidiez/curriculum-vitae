@@ -3,7 +3,7 @@ import googleIconsSearchCv from '../../assets/img/iconos-google-search-cv.png'
 
 export const SearchBoxCv = () => {
     return (
-        <div class="input-container-cv container">
+        <div className="input-container-cv container">
            
             <input type="text" className='search-box-cv' />
             <img className='magnify-icon-cv' src={googleIconsSearchCv}/>

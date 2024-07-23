@@ -1,9 +1,39 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css"
 import javier from '../../assets/img/javier-diez.jpeg'
 
 export const Navbar = () => {
+
+    const [checked, setChecked] = useState(
+        localStorage.getItem("theme") === "dark" ? true : false
+    );
+
+    /**
+     * Cada vez que el estado checked cambie, actualiza la propiedad
+     * data-theme en el HTML para que use el tema que estamos almacenando
+     * en el localStorage
+     */
+    useEffect(() => {
+        document
+            .getElementsByTagName("HTML")[0]
+            .setAttribute("data-theme", localStorage.getItem("theme"));
+    }, [checked]);
+
+    /**
+     * Actualiza el estado checked y el contenido de nuestro objeto
+     * theme en el localStorage basados en el checkbox
+     */
+    const toggleThemeChange = () => {
+        if (checked === false) {
+            localStorage.setItem("theme", "dark");
+            setChecked(true);
+        } else {
+            localStorage.setItem("theme", "light");
+            setChecked(false);
+        }
+    };
+
     return (
         <div className='d-flex justify-content-between mt-4 px-4 navbar-style'>
             <div className='gap-4 navbar-left'>
@@ -17,6 +47,18 @@ export const Navbar = () => {
                     apps
                 </span>
                 <img className='rounded-circle navbar-profile-photo' src={javier} />
+                <label>
+                <input
+                    type="checkbox"
+                    defaultChecked={checked}
+                    onChange={() => toggleThemeChange()}
+                    style={{display:"none"}}
+                />
+     
+                    <span class="material-symbols-outlined sun-icon">
+                        brightness_4
+                    </span>
+            </label>
             </div>
 
 
