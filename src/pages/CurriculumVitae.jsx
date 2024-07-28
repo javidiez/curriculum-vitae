@@ -27,7 +27,7 @@ export const CurriculumVitae = () => {
                     <InfoCard title={"Javier Diez - Github"} LinkTo={"https://www.github.com/javidiez"} url={"https://www.github.com/javidiez"} urlTitle={"Github"} img={github} description={"En Github encontrarás todos mis proyectos, divididos en repositorios y en cada uno, carpetas y archivos que fueron utilizados para desarrollarlos. Te invito a revisarlos."} />
                 </div>
                 <div className="col-12 col-lg-3 mt-4">
-                    <PersonalCard />
+                    <PersonalCard LinkTo={"/quien-soy"}/>
                 </div>
             </div>
             <FooterCv />

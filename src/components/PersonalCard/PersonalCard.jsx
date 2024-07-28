@@ -13,7 +13,7 @@ import LogoReact from '../../assets/img/logo-react.png'
 import logoPython from '../../assets/img/logo-python.png'
 import logoFlask from '../../assets/img/logo-flask.webp'
 
-export const PersonalCard = () => {
+export const PersonalCard = ({LinkTo}) => {
     return (
         <div className="personal-card container px-4">
             <div>
@@ -26,7 +26,7 @@ export const PersonalCard = () => {
                         </span>
                     </div>
                     <div>
-                        <Link to="quien_soy">
+                        <Link to={LinkTo}>
                             <span class="material-symbols-outlined arrow-icon">
                                 chevron_right
                             </span>
