@@ -86,10 +86,10 @@ export const NavbarCv = () => {
                             onChange={() => toggleThemeChange()}
                             style={{ display: "none" }}
                         />
-                        <span class="material-symbols-outlined sun-icon-cv">
+                        <span className="material-symbols-outlined sun-icon-cv">
                             brightness_4
                         </span>
-                        <span class="material-symbols-outlined sun-icon-mobile">
+                        <span className="material-symbols-outlined sun-icon-mobile">
                             brightness_4
                         </span>
                     </label>
