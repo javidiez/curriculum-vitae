@@ -15,7 +15,7 @@ export const Educacion = () => {
 
     return (
         <>
-            <NavbarCv />
+            <NavbarCv claseEdu={'titulos-cv-style-edu'}/>
             <div className="container row d-flex flex-wrap justify-content-center">
                 <div className="col-12 col-sm-8">
                     <InfoCard title={'Analista de Sistemas de la Computación'} url={"2012 - 2015"} urlTitle={"Inst. Superior J.J. Urquiza"} img={jj} description={"La mejor decisión que pude haber tomado es estudiar lo que estudié. Me formé para adentrarme en un mundo apasionante y en constante evolución. Aprendí las bases de las tecnologías, sistemas y computadoras para en los siguientes años, poner todo ello en práctica. (Ubicación: Rosario, Argentina)"}/>
@@ -27,6 +27,8 @@ export const Educacion = () => {
                     <InfoCard title={'Javascript'} url={"2024"} urlTitle={"freeCodeCamp"} img={fcc} description={"Curso inicial de Javascript, repasando los fundamentos de este lenguaje y realizando algunos proyectos prácticos que pueden encontrar en mi Github. (Ubicación: Sevilla, España)"}/>
 
                     <InfoCard title={'Bootstrap'} url={"2024"} urlTitle={"freeCodeCamp"} img={fcc} description={"Curso sobre este framework para estilizar y crear sitios webs responsivos de una forma rápida y sencilla. Una tecnología que aplico a todos mis proyectos y que me encanta por todas las herramientas que ofrece. (Ubicación: Sevilla, España)"}/>
+
+                    <InfoCard title={'Python'} url={"2024"} urlTitle={"Soy Dalto"} img={dalto} description={"Curso inicial de Python, repasando los aspectos principales de este lenguaje. También se repasó el uso de Pandas para la gestión de archivos CSV. (Ubicación: Sevilla, España)"}/>
 
                     <InfoCard title={'Javascript - Nivel 1'} url={"2024"} urlTitle={"Soy Dalto"} img={dalto} description={"Curso inicial de Javascript, repasando los fundamentos de este lenguaje y realizando algunos proyectos prácticos que pueden encontrar en mi Github. (Ubicación: Sevilla, España)"}/>
 

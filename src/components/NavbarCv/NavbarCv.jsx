@@ -5,7 +5,7 @@ import './NavbarCv.css'
 import { Link } from "react-router-dom"
 import Swiper from "swiper"
 
-export const NavbarCv = () => {
+export const NavbarCv = ({claseTodo, claseProy, claseConoc, claseEdu, claseExp}) => {
 
     useEffect(() => {
         const swiper = new Swiper('.swiper-container', {
@@ -104,11 +104,11 @@ export const NavbarCv = () => {
 
                         <div className='swiper-slide-paginas ps-4 pt-3 fade-in'>
                             <div className="d-flex gap-4">
-                                <Link className="titulos-cv-style-todo text-decoration-none" to="/curriculum_vitae">Todo</Link>
-                                <Link className="titulos-cv-style" to="/experiencia">Experiencia</Link>
-                                <Link className="titulos-cv-style" to="/educacion">Educación</Link>
-                                <Link className="titulos-cv-style" to="/conocimientos">Conocimientos</Link>
-                                <Link className="titulos-cv-style" to="/proyectos">Proyectos</Link>
+                                <Link className={`${claseTodo} titulos-cv-style`} to="/curriculum_vitae">Todo</Link>
+                                <Link className={`${claseExp} titulos-cv-style`}  to="/experiencia">Experiencia</Link>
+                                <Link className={`${claseEdu} titulos-cv-style`}  to="/educacion">Educación</Link>
+                                <Link className={`${claseConoc} titulos-cv-style`}  to="/conocimientos">Conocimientos</Link>
+                                <Link className={`${claseProy} titulos-cv-style`}  to="/proyectos">Proyectos</Link>
                                 <a className="titulos-cv-style" target="_blank" href="https://www.linkedin.com/in/javier-diezz/">Linkedin</a>
                                 <a className="titulos-cv-style" target="_blank" href="https://github.com/javidiez">Github</a>
                             </div>

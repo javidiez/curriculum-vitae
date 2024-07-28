@@ -22,7 +22,7 @@ export const InfoCard = ({ title, url, urlTitle, description, img, LinkTo }) => 
                     </div>
                 </div>
             </div>
-            <Link target="_blank" className="card-title" to={LinkTo}>{title}</Link>
+            <Link className="card-title" to={LinkTo}>{title}</Link>
             <p className="card-description">{description}</p>
         </div>
     )

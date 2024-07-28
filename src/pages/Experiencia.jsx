@@ -15,7 +15,7 @@ export const Experiencia = () => {
 
     return (
         <>
-            <NavbarCv />
+            <NavbarCv claseExp={'titulos-cv-style-exp'} />
             <div className="container row d-flex flex-wrap justify-content-center">
                 <div className="col-12 col-sm-8">
                     <InfoCard title={'Project Manager - Odoo'} url={"jun. 2022 - mar. 2024 (1 año y 10 meses)"} urlTitle={"Factor Libre"} img={fl} description={"En Factor Libre continué mi tarea de dar consultoría a las empresas y gestionar los proyectos, esta vez coordinando con distintas áreas de la empresa para que en equipo las implementaciones avancen. Al mismo tiempo fui parte del equipo de 'Pedidos' donde desarrollábamos mejoras y nuevas funcionalidades para el sector de Compra y Venta de las empresas. (Ubicación: Madrid, España)"}/>

@@ -26,19 +26,34 @@
   color: var(--primary-color);
   border-bottom: 3px solid var(--primary-color);
   padding: 0px 10px 5px 10px;
+  text-decoration: none;
 }
 
-.titulos-cv-style:active {
+.titulos-cv-style-exp {
   color: var(--primary-color);
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: 5px;
+  padding: 0px 10px 5px 10px;
+  text-decoration: none;
 }
 
-
-.titulos-cv-style:focus {
+.titulos-cv-style-edu {
   color: var(--primary-color);
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: 5px;
+  padding: 0px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.titulos-cv-style-conoc {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  padding: 0px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.titulos-cv-style-proy {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  padding: 0px 10px 5px 10px;
 }
 
 /* Estilo para los contenedores de Swiper */
