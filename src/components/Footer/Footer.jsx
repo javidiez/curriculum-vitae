@@ -15,12 +15,10 @@ export const Footer = () => {
                         <Link className='footer-links' to="/quien-soy">Quién soy</Link>
                         <Link className='footer-links' to="/experiencia">Experiencia</Link>
                         <Link className='footer-links' to="/educacion">Estudios</Link>
-                        <Link className='footer-links' to="">Contacto</Link>
                     </div>
                     <div className='px-4 d-flex gap-4 flex-wrap'>
                         <Link className='footer-links' to="/conocimientos">Conocimientos</Link>
-                        <Link className='footer-links' to="">Curriculum</Link>
-                        <Link className='footer-links' to="">Contacto</Link>
+                        <Link className='footer-links' to="/curriculum_vitae">Curriculum</Link>
                     </div>
                 </div>
             </div>
