@@ -20,7 +20,7 @@ export const Educacion = () => {
                 <div className="col-12 col-sm-8">
                     <InfoCard title={'Analista de Sistemas de la Computación'} url={"2012 - 2015"} urlTitle={"Inst. Superior J.J. Urquiza"} img={jj} description={"La mejor decisión que pude haber tomado es estudiar lo que estudié. Me formé para adentrarme en un mundo apasionante y en constante evolución. Aprendí las bases de las tecnologías, sistemas y computadoras para en los siguientes años, poner todo ello en práctica. (Ubicación: Rosario, Argentina)"}/>
 
-                    <InfoCard title={'Analista Programador'} url={"2012 - 2013"} urlTitle={"Inst. Superior J.J. Urquiza"} img={jj} description={"Título intermedio que entregaba la institución. Preparados para salir al mundo laboral como programdor, dándonos los conceptos fundamentales y la lógica del desarrollo web. (Ubicación: Rosario, Argentina)"}/>
+                    <InfoCard title={'Analista Programador'} url={"2012 - 2013"} urlTitle={"Inst. Superior J.J. Urquiza"} img={jj} description={"Título intermedio que entregaba la institución. Preparados para salir al mundo laboral como programador, dándonos los conceptos fundamentales y la lógica del desarrollo web. (Ubicación: Rosario, Argentina)"}/>
 
                     <InfoCard title={'Fullstack Developer'} url={"2024"} urlTitle={"4Geeks Academy"} img={geek} description={"Bootcamp completo sobre el desarrollo FullStack. Tocando las tecnologías prinicipales tales como HTML, CSS, Bootstrap, Javascript, React, Jest, Python, Flask y SQLAlchemy. (Ubicación: Sevilla, España)"}/>
 

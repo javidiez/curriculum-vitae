@@ -9,6 +9,7 @@ import { Educacion } from './pages/Educacion';
 import { Conocimientos } from './pages/Conocimientos';
 import { Experiencia } from './pages/Experiencia';
 
+
 function App() {
   return (
     <Router>

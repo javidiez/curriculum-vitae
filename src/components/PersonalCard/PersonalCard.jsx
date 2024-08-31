@@ -12,6 +12,7 @@ import logoJs from '../../assets/img/logo-js.png'
 import LogoReact from '../../assets/img/logo-react.png'
 import logoPython from '../../assets/img/logo-python.png'
 import logoFlask from '../../assets/img/logo-flask.webp'
+import logoSqla from '../../assets/img/sqla.png'
 
 export const PersonalCard = ({LinkTo}) => {
     return (
@@ -65,6 +66,7 @@ export const PersonalCard = ({LinkTo}) => {
                     <img className="profile-icons-tech" src={LogoReact} title="React"/>
                     <img className="profile-icons-tech" src={logoPython} title="Python"/>
                     <img className="profile-icons-tech" src={logoFlask} title="Flask"/>
+                    <img className="profile-icons-tech" src={logoSqla} title="SQLAlchemy"/>
                    
                 </div>
             </div>

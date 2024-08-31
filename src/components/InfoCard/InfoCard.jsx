@@ -3,6 +3,7 @@ import './InfoCard.css'
 
 
 export const InfoCard = ({ title, url, urlTitle, description, img, LinkTo }) => {
+
     return (
         <div className="mt-5 card-style container">
             <div className="d-flex align-items-start gap-2">

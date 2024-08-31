@@ -24,13 +24,13 @@ export const Conocimientos = () => {
 
                     <InfoCard title={'Git - Github - Gitlab'} url={"Manejo de versiones"} urlTitle={"Git"} img={git} description={"En las empresas que trabajé, por supuesto que trabajaban con la tecnología Git, y en algunas he trabajado con Github y en otras con Gitlab, brindadome así un conocimiento amplio de las distintas herramientas que se ofrecen en el mercado respecto a este punto."} />
 
-                    <InfoCard title={'Google Apps'} url={"Aplicaciones de Google"} urlTitle={"Google"} img={google} description={"Debido a los proyectos web que fui desarrollando a lo largo de mi vida, fui aprendiendo y trabajando con distintas herramientas de Google, tales como: Google Analytics, Google Adsense, Google Play Console, Google Search Console, Google Drive, Gmail, Google Calendar, Blogger."} />
+                    <InfoCard title={'Google Apps'} url={"Aplicaciones de Google"} urlTitle={"Google"} img={google} description={"Debido a los proyectos web que fui desarrollando a lo largo de mi vida, fui aprendiendo y trabajando con distintas herramientas de Google, tales como: Google Analytics, Google Adsense, Google Play Console, Google Search Console, Google Drive, Gmail, Google Calendar, Google Meet, Blogger."} />
 
                     <InfoCard title={'Wordpress'} url={"Gestión de contenido"} urlTitle={"CMS"} img={wordpress} description={"Una de las plataformas principales para la publicación de contenido, desarrollo web y creación de blogs. Tuve algunos proyectos creados bajo este CMS, lo que me permitieron conocer las bases de su funcionamiento y sus extensiones."} />
 
                     <InfoCard title={'Paquete Office'} url={"Microsoft Office"} urlTitle={"Herramientas de trabajo"} img={office} description={"Tengo los conocimientos fundamentales para trabajar con los programas que integran este paquete, principalmente Word, Excel y PowerPoint."} />
 
-                    <InfoCard title={'Conocimientos extras'} url={"Conocimientos adicionales"} urlTitle={"Es bueno saber"} img={extras} description={"Detallo aquí otros conocimientos que tengo: Ubuntu, terminal/consola, Windows, pgAdmin, chatGPT, Copilot, Gemini, Slack, SEO, Hootsuite, Netlify, QuickDBD, OBS Studio, trading, TradingView."} />
+                    <InfoCard title={'Conocimientos extras'} url={"Conocimientos adicionales"} urlTitle={"Es bueno saber"} img={extras} description={"Detallo aquí otros conocimientos que tengo: Ubuntu, terminal/consola, Windows, pgAdmin, Slack, SEO, Hootsuite, Netlify, Render, Vercel, QuickDBD, OBS Studio, TradingView."} />
 
                 </div>
             </div>

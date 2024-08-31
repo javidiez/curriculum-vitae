@@ -16,21 +16,30 @@ import colors from '../../src/assets/img/colors.png'
 import todo from '../../src/assets/img/todo.png'
 import money from '../../src/assets/img/money.png'
 import ecommerce from '../../src/assets/img/ecommerce.png'
+import carefy from '../../src/assets/img/logo-carefy.png'
+import domain from '../../src/assets/img/domain.png'
+import { useEffect } from "react";
 
 
 export const Proyectos = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>
             <NavbarCv claseProy={'titulos-cv-style-proy'} />
             <div className="container row d-flex flex-wrap justify-content-center">
                 <div className="col-12 col-sm-8">
-                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://cinelandia.netlify.app/'>Cinelandia</a></>)} url={"HTML, CSS, Bootstrap,  React"} urlTitle={"Contenido multimedia"} img={cine} description={(
+                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://cinelandia.netlify.app/'>Cinelandia</a></>)} url={"HTML, CSS, Bootstrap,  React"} urlTitle={"Películas y series"} img={cine} description={(
                         <>
-                            Este proyecto se puede considerar como el que más tiempo y cariño le dediqué. Se trata de una plataforma para buscar películas y series, donde podremos encontrar toda la información relacionada a ellas. Se usa la API de TMDB. También creé la app que está subida a 
+                            Este proyecto se puede considerar como el que más tiempo y cariño le dediqué. Se trata de una plataforma para buscar películas y series, donde podremos encontrar toda la información relacionada a ellas. Se usa la API de TMDB. También creé la app que está subida a
                             <a className="ps-1" target="_blank" href='https://play.google.com/store/apps/details?id=com.cinelandia.cinelandia'>Google Play</a>.
                         </>
                     )} LinkTo={'https://cinelandia.netlify.app/'} />
+
+                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://sample-service-name-2ja2.onrender.com/'>Carefy</a></>)} url={"HTML, CSS, Bootstrap, Javascript, React, Python, Flask, SQL Alchemy"} urlTitle={"Proyecto final"} img={carefy} description={"Este fue el proyecto final del Bootcamp realizado en 4GeeksAcademy. Carefy es una plataforma que tiene como objetivo conectar a cuidadores de personas adultas con familias que requieren profesionales para estas tareas. Para entrar al sitio web puede tardar unos minutos."} LinkTo={'https://sample-service-name-2ja2.onrender.com/'} />
 
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://criptolandia.netlify.app/'>Criptolandia</a></>)} url={"HTML, CSS, Bootstrap, Javascript"} urlTitle={"Criptomonedas"} img={cripto} description={"Mi primer proyecto usando un API externa, en este caso, la de CoinGecko. En esta plataforma muestro el valor de las principales criptomendas, tendencias, listado de exchangers y empresas que holdean BTC."} LinkTo={'https://criptolandia.netlify.app/'} />
 
@@ -45,6 +54,8 @@ export const Proyectos = () => {
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://webecommerceproduct.netlify.app/'>Ecommerce</a></>)} url={"HTML, CSS, Bootstrap, Javascript"} urlTitle={"Plataforma de productos"} img={ecommerce} description={"Aquí podremos encontrar la posibilidad de añadir productos con una imagen y una descripción. Estos se irán mostrando en la pantalla, simulando lo que es un Ecommerce."} LinkTo={'https://webecommerceproduct.netlify.app/'} />
 
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://antenah.netlify.app/'>Antenah</a></>)} url={"HTML, CSS, Bootstrap"} urlTitle={"Compañía de desarrollo web"} img={antenah} description={"Esta página web simula la de una compañía que ofrece servicios de desarrollo web. Se pueden ver algunos efectos de scroll hechos puramente con CSS. Su diseño es responsivo y tiene como objetivo, por qué no, ser mi futuro sitio web ofreciendo mis servicios."} LinkTo={'https://antenah.netlify.app/'} />
+
+                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://domaingeneratorweb.netlify.app/'>Domain Generator</a></>)} url={"HTML, CSS, Bootstrap"} urlTitle={"Crea tus dominios"} img={domain} description={"Con Domain Generator podremos añadir varias palabras y así generar todas las combinaciones posibles para generar distintas alternativas de dominios."} LinkTo={'https://antenah.netlify.app/'} />
 
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://bonsaiweb.netlify.app/'>Bonsai Web</a></>)} url={"HTML, CSS, Bootstrap"} urlTitle={"Tarjetas con precios"} img={bonsai} description={"En este sitio web se pueden ver tarjetas con distintos precios. Lo destacable es el botón para cambiar las tarjetas según elegimos valor mensual o anual. De esta forma, los precios cambian según le demos al botón."} LinkTo={'https://bonsaiweb.netlify.app/'} />
 
