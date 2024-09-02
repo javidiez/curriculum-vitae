@@ -18,7 +18,7 @@ export const Conocimientos = () => {
             <NavbarCv claseConoc={'titulos-cv-style-conoc'} />
             <div className="container row d-flex flex-wrap justify-content-center">
                 <div className="col-12 col-sm-8">
-                    <InfoCard title={'Desarrollo web'} url={"Múltiples lenguajes"} urlTitle={"Fullstack Developer"} img={dev} description={"Me encanta el desarrollo web, por lo que dediqué tiempo a formarme en los siguientes lenguajes: HTML, CSS, Bootstrap, Javascript, React, Python, Flask, SQL."} />
+                    <InfoCard title={'Desarrollo web'} url={"Múltiples lenguajes"} urlTitle={"Fullstack Developer"} img={dev} description={"Me encanta el desarrollo web, por lo que dediqué tiempo a formarme en los siguientes lenguajes y tecnologías: HTML, CSS, Bootstrap, Javascript, React.js, Python, Flask, APIs, Flux, SCRUM, SQL, SQLAlchemy, Postgres"} />
 
                     <InfoCard title={'Odoo ERP'} url={"Sistema de gestión empresarial"} urlTitle={"Consultoría y gestión de proyectos"} img={odoo} description={"Tengo más de 10 años de experiencia en el uso e implantación de Odoo en todo tipo de empresas. Siendo Consultor, Project Manager y Líder del equipo de Consultores, pude desarrollarme y volverme experto en este sistema."} />
 
@@ -30,7 +30,7 @@ export const Conocimientos = () => {
 
                     <InfoCard title={'Paquete Office'} url={"Microsoft Office"} urlTitle={"Herramientas de trabajo"} img={office} description={"Tengo los conocimientos fundamentales para trabajar con los programas que integran este paquete, principalmente Word, Excel y PowerPoint."} />
 
-                    <InfoCard title={'Conocimientos extras'} url={"Conocimientos adicionales"} urlTitle={"Es bueno saber"} img={extras} description={"Detallo aquí otros conocimientos que tengo: Ubuntu, terminal/consola, Windows, pgAdmin, Slack, SEO, Hootsuite, Netlify, Render, Vercel, QuickDBD, OBS Studio, TradingView."} />
+                    <InfoCard title={'Conocimientos extras'} url={"Conocimientos adicionales"} urlTitle={"Es bueno saber"} img={extras} description={"Detallo aquí otros conocimientos que tengo: Metedologías ágiles, Ubuntu, terminal/consola, FileZilla, pgAdmin, Postman, Slack, Figma, SEO, Hootsuite, Netlify, Render, Vercel, QuickDBD, OBS Studio, TradingView."} />
 
                 </div>
             </div>
