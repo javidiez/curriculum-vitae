@@ -18,6 +18,7 @@ import money from '../../src/assets/img/money.png'
 import ecommerce from '../../src/assets/img/ecommerce.png'
 import carefy from '../../src/assets/img/logo-carefy.png'
 import domain from '../../src/assets/img/domain.png'
+import gympoint from '../../src/assets/img/logo_gym.png'
 import { useEffect } from "react";
 
 
@@ -32,6 +33,11 @@ export const Proyectos = () => {
             <NavbarCv claseProy={'titulos-cv-style-proy'} />
             <div className="container row d-flex flex-wrap justify-content-center">
                 <div className="col-12 col-sm-8">
+
+                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://sample-service-name-2ja2.onrender.com/'>Carefy</a></>)} url={"HTML, CSS, Bootstrap, Javascript, React, Python, Flask, SQL Alchemy"} urlTitle={"Proyecto final"} img={carefy} description={"Carefy es una plataforma que tiene como objetivo conectar a cuidadores de personas adultas con familias que requieren profesionales para estas tareas. Para entrar al sitio web puede tardar unos minutos."} LinkTo={'https://sample-service-name-2ja2.onrender.com/'} />
+
+                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://github.com/javidiez/gympoint'>Gym Point</a></>)} url={"HTML, CSS, Bootstrap, Javascript, React, Python, Flask, SQL Alchemy"} urlTitle={"App para gimnsasios"} img={gympoint} description={"GymPoint es una aplicación destinada los gimnasios y tiene como objetivo poder ofrecerle a sus clientes una plataforma donde ver sus clases, reservarlas, consultar información del centro y el equipo humano que lo integra."} LinkTo={'https://github.com/javidiez/gympoint'} />
+
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://cinelandia.netlify.app/'>Cinelandia</a></>)} url={"HTML, CSS, Bootstrap,  React"} urlTitle={"Películas y series"} img={cine} description={(
                         <>
                             Este proyecto se puede considerar como el que más tiempo y cariño le dediqué. Se trata de una plataforma para buscar películas y series, donde podremos encontrar toda la información relacionada a ellas. Se usa la API de TMDB. También creé la app que está subida a
@@ -39,7 +45,6 @@ export const Proyectos = () => {
                         </>
                     )} LinkTo={'https://cinelandia.netlify.app/'} />
 
-                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://sample-service-name-2ja2.onrender.com/'>Carefy</a></>)} url={"HTML, CSS, Bootstrap, Javascript, React, Python, Flask, SQL Alchemy"} urlTitle={"Proyecto final"} img={carefy} description={"Carefy es una plataforma que tiene como objetivo conectar a cuidadores de personas adultas con familias que requieren profesionales para estas tareas. Para entrar al sitio web puede tardar unos minutos."} LinkTo={'https://sample-service-name-2ja2.onrender.com/'} />
 
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://criptolandia.netlify.app/'>Criptolandia</a></>)} url={"HTML, CSS, Bootstrap, Javascript"} urlTitle={"Criptomonedas"} img={cripto} description={"Mi primer proyecto usando un API externa, en este caso, la de CoinGecko. En esta plataforma muestro el valor de las principales criptomendas, tendencias, listado de exchangers y empresas que holdean BTC."} LinkTo={'https://criptolandia.netlify.app/'} />
 
