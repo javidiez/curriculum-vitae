@@ -32,7 +32,7 @@ export const Experiencia = () => {
 
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://www.linkedin.com/company/manos-a-la-obra-rosario/'>Community Manager</a></>)} url={"ago. 2013 - ene. 2015 (1 año y 6 meses)"} urlTitle={"Manos a la Obra"} img={manos} description={"Para Manos a la Obra estuve encargado de la redacción de contenido, diseño del plan fotográfico y documental, y la gestión de mensajería, tanto en Facebook como en Twitter. (Ubicación: Rosario, Argentina)"} LinkTo={'https://www.linkedin.com/company/manos-a-la-obra-rosario/'}/>
 
-                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://www.linkedin.com/company/sersomedia/'>Community Manager</a></>)} url={"jun. 2022 - mar. 2024 (6 meses)"} urlTitle={"Sersomedia"} img={sm} description={"En Sersomedia tiene la tarea de crear contenido para Facebook para distintas compañías de distintos rubros, entre ellas, una revista digital y una empresa de venta de artículos para motos. (Ubicación: Rosario, Argentina)"} LinkTo={'https://www.linkedin.com/company/sersomedia/'}/>
+                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://www.linkedin.com/company/sersomedia/'>Community Manager</a></>)} url={"ago. 2011 - enero. 2012 (6 meses)"} urlTitle={"Sersomedia"} img={sm} description={"En Sersomedia tiene la tarea de crear contenido para Facebook para distintas compañías de distintos rubros, entre ellas, una revista digital y una empresa de venta de artículos para motos. (Ubicación: Rosario, Argentina)"} LinkTo={'https://www.linkedin.com/company/sersomedia/'}/>
 
                 </div>
             </div>
