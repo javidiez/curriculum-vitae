@@ -20,6 +20,7 @@ import carefy from '../../src/assets/img/logo-carefy.png'
 import domain from '../../src/assets/img/domain.png'
 import gympoint from '../../src/assets/img/logo_gym.png'
 import forojobs from '../../src/assets/img/forojobs.png'
+import odoo from '../../src/assets/img/odoo.png'
 import { useEffect } from "react";
 
 
@@ -34,6 +35,8 @@ export const Proyectos = () => {
             <NavbarCv claseProy={'titulos-cv-style-proy'} />
             <div className="container row d-flex flex-wrap justify-content-center">
                 <div className="col-12 col-sm-8">
+
+                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://apps.odoo.com/apps/modules/browse?author=Javier%20Diez'>Odoo modules</a></>)} url={"Python, XML"} urlTitle={"Módulos para el ERP Odoo"} img={odoo} description={"Con más de 10 años de experiencia en el ERP Odoo, tuve la oportunidad de haber trabajado mucho con este sistema y poder conocerlo a fondo para desarrollar mejoras y soluciones de todo tipo."} LinkTo={'ttps://apps.odoo.com/apps/modules/browse?author=Javier%20Diez'} />
 
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://sample-service-name-2ja2.onrender.com/'>Carefy</a></>)} url={"HTML, CSS, Bootstrap, Javascript, React, Python, Flask, SQL Alchemy"} urlTitle={"Cuidado de personas mayores"} img={carefy} description={"Carefy es una plataforma que tiene como objetivo conectar a cuidadores de personas adultas con familias que requieren profesionales para estas tareas. Para entrar al sitio web puede tardar unos minutos."} LinkTo={'https://sample-service-name-2ja2.onrender.com/'} />
 
