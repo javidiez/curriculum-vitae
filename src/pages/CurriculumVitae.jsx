@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { InfoCard } from "../components/InfoCard/InfoCard";
 import { NavbarCv } from "../components/NavbarCv/NavbarCv";
-import javier from '../../src/assets/img/javier-diez.jpeg'
+import javier from '../../src/assets/img/jd.jpeg'
 import linkedin from '../../src/assets/img/linkedin.webp'
 import github from '../../src/assets/img/github.svg'
 import maletin from '../../src/assets/img/maletin.png'
