@@ -1,7 +1,7 @@
 import React from "react"
 import './PersonalCard.css'
 import { Link } from "react-router-dom"
-import javier from '../../assets/img/javier-diez.jpeg'
+import javier from '../../assets/img/jd.jpeg'
 import logoLikedin from '../../assets/img/logo-linkedin.png'
 import logoGithub from '../../assets/img/logo-github.webp'
 import logoX from '../../assets/img/logo-x.avif'
