@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css"
-import javier from '../../assets/img/javier-diez.jpeg'
+import javier from '../../assets/img/jd.jpeg'
 
 export const Navbar = () => {
 

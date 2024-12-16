@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { SearchBoxCv } from "../SearchBoxCv/SearchBoxCv"
-import javier from '../../assets/img/javier-diez.jpeg'
+import javier from '../../assets/img/jd.jpeg'
 import './NavbarCv.css'
 import { Link } from "react-router-dom"
 import Swiper from "swiper"
